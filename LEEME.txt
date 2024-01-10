@@ -1,0 +1,21 @@
+# Sistema de votación prueba DESIS.
+
+## Descripción
+Este es un pequeño sistema de votación que permite almacenar la información en una base de datos MySQL. 
+
+
+## Estructura de Directorios
+
+`/api`: Contiene la capa de conexión con la base de datos MySQL.
+`/js`: Controlador de eventos Javascript con la librería Jquery.
+`/views`: Interfaz frontend con el formulario de votación.
+
+
+## Instalación
+
+1. Clonar repositorio https://github.com/asembler33/votacion_desis.git
+2. Instalar servidor local apache, para esto pueden instalar los siguientes software: Wampserver ó EasyPHP.
+3. Abrir una instancia de phpMyadmin ó consola MySQL para crear la base de datos, el nombre que debe tener es "votacion_desis".
+4. Importar el archivo "votantes.sql" para la instalación de las tablas de datos.
+5. Configurar las credenciales de la base de datos MySQL según corresponda, esto debe realizarse en la ruta del proyecto "api/db.php"
+6. Inciar el proyecto en la siguiente dirección "http://rutaweb/views/formVotacion.php"
